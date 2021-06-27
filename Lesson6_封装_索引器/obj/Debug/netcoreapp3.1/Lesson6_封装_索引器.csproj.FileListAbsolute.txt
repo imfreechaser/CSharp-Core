@@ -1,0 +1,13 @@
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\bin\Debug\netcoreapp3.1\Lesson6_封装_索引器.exe
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\bin\Debug\netcoreapp3.1\Lesson6_封装_索引器.deps.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\bin\Debug\netcoreapp3.1\Lesson6_封装_索引器.runtimeconfig.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\bin\Debug\netcoreapp3.1\Lesson6_封装_索引器.runtimeconfig.dev.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\bin\Debug\netcoreapp3.1\Lesson6_封装_索引器.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\bin\Debug\netcoreapp3.1\Lesson6_封装_索引器.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\obj\Debug\netcoreapp3.1\Lesson6_封装_索引器.csprojAssemblyReference.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\obj\Debug\netcoreapp3.1\Lesson6_封装_索引器.AssemblyInfoInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\obj\Debug\netcoreapp3.1\Lesson6_封装_索引器.AssemblyInfo.cs
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\obj\Debug\netcoreapp3.1\Lesson6_封装_索引器.csproj.CoreCompileInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\obj\Debug\netcoreapp3.1\Lesson6_封装_索引器.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\obj\Debug\netcoreapp3.1\Lesson6_封装_索引器.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson6_封装_索引器\obj\Debug\netcoreapp3.1\Lesson6_封装_索引器.genruntimeconfig.cache

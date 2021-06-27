@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lessson1_类和对象", "Lessson1_类和对象\Lessson1_类和对象.csproj", "{AA37C143-80ED-4046-9875-2036C19D68D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson2_成员变量和访问修饰符", "Lesson2_成员变量和访问修饰符\Lesson2_成员变量和访问修饰符.csproj", "{86E4F134-2494-46E0-9ECB-961FAEBB1714}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson3_成员方法", "Lesson3_成员方法\Lesson3_成员方法.csproj", "{9A072D80-649B-47B1-8FCD-B690E989EC50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson4_封装_构造函数和析构函数", "Lesson4_封装_构造函数和析构函数\Lesson4_封装_构造函数和析构函数.csproj", "{7DF4C4FE-EC77-468D-9741-E127868747D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson6_封装_索引器", "Lesson6_封装_索引器\Lesson6_封装_索引器.csproj", "{C2DFEC75-75DB-455A-B2A3-8BF6D071F0F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA37C143-80ED-4046-9875-2036C19D68D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA37C143-80ED-4046-9875-2036C19D68D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA37C143-80ED-4046-9875-2036C19D68D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA37C143-80ED-4046-9875-2036C19D68D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E4F134-2494-46E0-9ECB-961FAEBB1714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E4F134-2494-46E0-9ECB-961FAEBB1714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E4F134-2494-46E0-9ECB-961FAEBB1714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E4F134-2494-46E0-9ECB-961FAEBB1714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A072D80-649B-47B1-8FCD-B690E989EC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A072D80-649B-47B1-8FCD-B690E989EC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A072D80-649B-47B1-8FCD-B690E989EC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A072D80-649B-47B1-8FCD-B690E989EC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF4C4FE-EC77-468D-9741-E127868747D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF4C4FE-EC77-468D-9741-E127868747D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF4C4FE-EC77-468D-9741-E127868747D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF4C4FE-EC77-468D-9741-E127868747D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DFEC75-75DB-455A-B2A3-8BF6D071F0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DFEC75-75DB-455A-B2A3-8BF6D071F0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DFEC75-75DB-455A-B2A3-8BF6D071F0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DFEC75-75DB-455A-B2A3-8BF6D071F0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7B95079-FF55-467D-A113-63BDD111FFA8}
+	EndGlobalSection
+EndGlobal
