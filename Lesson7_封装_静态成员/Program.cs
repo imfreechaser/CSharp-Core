@@ -21,13 +21,37 @@ namespace Lesson7_封装_静态成员
         }
     
     }
+    //练习题
+    static class MathTool
+    {
+        public const float PI = 3.1415f;
 
+        public static float CircleArea(float r)
+        {
+            return PI * r * r;
+        }
+        public static float CirclePeri(float r)
+        {
+            return 2 * PI * r;
+        }
+        public static float RecArea(float l,float w)
+        {
+            return l * w;
+        }
+        public static float RecPeri(float l, float w)
+        {
+            return 2 * (l + w);
+        }
+        public static float AbsoVal(float num)
+        {
+            return num < 0 ? -num:num;
+        }
+    }
     class Program
     {
         static void Main(string[] args)
         {
-            Person.P.testInt = 2;
-            Console.WriteLine();
+            Console.WriteLine(MathTool.CircleArea(3.5f));
                 
             
         }
