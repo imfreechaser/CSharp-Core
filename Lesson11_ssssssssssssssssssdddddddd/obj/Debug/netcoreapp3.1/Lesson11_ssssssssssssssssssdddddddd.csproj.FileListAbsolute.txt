@@ -1,0 +1,13 @@
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\bin\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.exe
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\bin\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.deps.json
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\bin\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.runtimeconfig.json
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\bin\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.runtimeconfig.dev.json
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\bin\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.dll
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\bin\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.pdb
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.csprojAssemblyReference.cache
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.AssemblyInfoInputs.cache
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.AssemblyInfo.cs
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.csproj.CoreCompileInputs.cache
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.dll
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.pdb
+C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson11_ssssssssssssssssssdddddddd.genruntimeconfig.cache
