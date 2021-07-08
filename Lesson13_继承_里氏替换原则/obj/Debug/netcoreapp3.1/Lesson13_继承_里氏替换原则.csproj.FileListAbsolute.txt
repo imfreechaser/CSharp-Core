@@ -1,0 +1,13 @@
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\bin\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.exe
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\bin\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.deps.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\bin\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.runtimeconfig.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\bin\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.runtimeconfig.dev.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\bin\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\bin\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\obj\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.AssemblyInfoInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\obj\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.AssemblyInfo.cs
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\obj\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.csproj.CoreCompileInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\obj\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\obj\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\obj\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.genruntimeconfig.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson13_继承_里氏替换原则\obj\Debug\netcoreapp3.1\Lesson13_继承_里氏替换原则.csprojAssemblyReference.cache

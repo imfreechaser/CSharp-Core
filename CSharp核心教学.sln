@@ -19,7 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson9_封装_拓展方法
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson12_继承_继承的基本规则", "Lesson11_ssssssssssssssssssdddddddd\Lesson12_继承_继承的基本规则.csproj", "{579EB8BA-ECDC-4872-809D-55FF9690FA67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson10_封装_运算符重载", "Lesson10_封装_运算符重载\Lesson10_封装_运算符重载.csproj", "{B8A6E09B-4543-4924-B7A6-7A9C81ACEA8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson10_封装_运算符重载", "Lesson10_封装_运算符重载\Lesson10_封装_运算符重载.csproj", "{B8A6E09B-4543-4924-B7A6-7A9C81ACEA8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson13_继承_里氏替换原则", "Lesson13_继承_里氏替换原则\Lesson13_继承_里氏替换原则.csproj", "{5024A8A1-392E-4C70-9355-5B6E114F360D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson14_继承_继承中的构造函数", "Lesson14_继承_继承中的构造函数\Lesson14_继承_继承中的构造函数.csproj", "{8CCB1381-66AE-4DB5-BF0C-3B15CAC04C6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{B8A6E09B-4543-4924-B7A6-7A9C81ACEA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8A6E09B-4543-4924-B7A6-7A9C81ACEA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8A6E09B-4543-4924-B7A6-7A9C81ACEA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5024A8A1-392E-4C70-9355-5B6E114F360D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5024A8A1-392E-4C70-9355-5B6E114F360D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5024A8A1-392E-4C70-9355-5B6E114F360D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5024A8A1-392E-4C70-9355-5B6E114F360D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCB1381-66AE-4DB5-BF0C-3B15CAC04C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCB1381-66AE-4DB5-BF0C-3B15CAC04C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCB1381-66AE-4DB5-BF0C-3B15CAC04C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCB1381-66AE-4DB5-BF0C-3B15CAC04C6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

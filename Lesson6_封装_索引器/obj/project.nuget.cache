@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RBjW/1bZ9qmsd1h6Xpl5Ctj0h/TWQz/JqJViNJX3+MvEq6uc7fGrihSiiQz20QdqcsVI1WtXgQPxyUNDOT2F2Q==",
+  "dgSpecHash": "UARrwPSwscMK/AqBGRiObMXxo6RfF6ll4Kj/YKlr2O7Locdcsjh+jJWVD1+b4I0AH1CRMdp1cS/GJttQmUQbXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RayData\\source\\repos\\CSharp-Core\\Lesson6_封装_索引器\\Lesson6_封装_索引器.csproj",
+  "projectFilePath": "C:\\Users\\Erina\\source\\repos\\CSharp核心教学\\Lesson6_封装_索引器\\Lesson6_封装_索引器.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
