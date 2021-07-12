@@ -1,0 +1,13 @@
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\bin\Debug\netcoreapp3.1\Lesson16_封装_密封类.exe
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\bin\Debug\netcoreapp3.1\Lesson16_封装_密封类.deps.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\bin\Debug\netcoreapp3.1\Lesson16_封装_密封类.runtimeconfig.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\bin\Debug\netcoreapp3.1\Lesson16_封装_密封类.runtimeconfig.dev.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\bin\Debug\netcoreapp3.1\Lesson16_封装_密封类.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\bin\Debug\netcoreapp3.1\Lesson16_封装_密封类.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\obj\Debug\netcoreapp3.1\Lesson16_封装_密封类.csprojAssemblyReference.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\obj\Debug\netcoreapp3.1\Lesson16_封装_密封类.AssemblyInfoInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\obj\Debug\netcoreapp3.1\Lesson16_封装_密封类.AssemblyInfo.cs
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\obj\Debug\netcoreapp3.1\Lesson16_封装_密封类.csproj.CoreCompileInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\obj\Debug\netcoreapp3.1\Lesson16_封装_密封类.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\obj\Debug\netcoreapp3.1\Lesson16_封装_密封类.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson16_封装_密封类\obj\Debug\netcoreapp3.1\Lesson16_封装_密封类.genruntimeconfig.cache

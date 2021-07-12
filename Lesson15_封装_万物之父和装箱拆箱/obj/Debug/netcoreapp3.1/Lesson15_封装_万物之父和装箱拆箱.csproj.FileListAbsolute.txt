@@ -1,0 +1,12 @@
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\bin\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.exe
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\bin\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.deps.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\bin\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.runtimeconfig.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\bin\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.runtimeconfig.dev.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\bin\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\bin\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\obj\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.AssemblyInfoInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\obj\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.AssemblyInfo.cs
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\obj\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.csproj.CoreCompileInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\obj\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\obj\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\obj\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.genruntimeconfig.cache
