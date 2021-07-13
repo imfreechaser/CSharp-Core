@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson14_继承_继承中�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson15_封装_万物之父和装箱拆箱", "Lesson15_封装_万物之父和装箱拆箱\Lesson15_封装_万物之父和装箱拆箱.csproj", "{57D56764-62D0-45A2-91E9-02F02B9BD475}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson16_封装_密封类", "Lesson16_封装_密封类\Lesson16_封装_密封类.csproj", "{4AA98123-3832-4FF5-97D5-43B51FBC9A59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson16_封装_密封类", "Lesson16_封装_密封类\Lesson16_封装_密封类.csproj", "{4AA98123-3832-4FF5-97D5-43B51FBC9A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson17_多态_vob", "Lesson17_多态_vob\Lesson17_多态_vob.csproj", "{5F492E58-3045-4F57-A4A0-B3AFDA04F373}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{4AA98123-3832-4FF5-97D5-43B51FBC9A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AA98123-3832-4FF5-97D5-43B51FBC9A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AA98123-3832-4FF5-97D5-43B51FBC9A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F492E58-3045-4F57-A4A0-B3AFDA04F373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F492E58-3045-4F57-A4A0-B3AFDA04F373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F492E58-3045-4F57-A4A0-B3AFDA04F373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F492E58-3045-4F57-A4A0-B3AFDA04F373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

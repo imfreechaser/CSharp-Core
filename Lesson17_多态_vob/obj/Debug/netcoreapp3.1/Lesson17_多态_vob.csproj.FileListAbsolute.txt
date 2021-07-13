@@ -1,0 +1,12 @@
+C:\Users\RayData\source\repos\CSharp-Core\Lesson17_多态_vob\bin\Debug\netcoreapp3.1\Lesson17_多态_vob.exe
+C:\Users\RayData\source\repos\CSharp-Core\Lesson17_多态_vob\bin\Debug\netcoreapp3.1\Lesson17_多态_vob.deps.json
+C:\Users\RayData\source\repos\CSharp-Core\Lesson17_多态_vob\bin\Debug\netcoreapp3.1\Lesson17_多态_vob.runtimeconfig.json
+C:\Users\RayData\source\repos\CSharp-Core\Lesson17_多态_vob\bin\Debug\netcoreapp3.1\Lesson17_多态_vob.runtimeconfig.dev.json
+C:\Users\RayData\source\repos\CSharp-Core\Lesson17_多态_vob\bin\Debug\netcoreapp3.1\Lesson17_多态_vob.dll
+C:\Users\RayData\source\repos\CSharp-Core\Lesson17_多态_vob\bin\Debug\netcoreapp3.1\Lesson17_多态_vob.pdb
+C:\Users\RayData\source\repos\CSharp-Core\Lesson17_多态_vob\obj\Debug\netcoreapp3.1\Lesson17_多态_vob.AssemblyInfoInputs.cache
+C:\Users\RayData\source\repos\CSharp-Core\Lesson17_多态_vob\obj\Debug\netcoreapp3.1\Lesson17_多态_vob.AssemblyInfo.cs
+C:\Users\RayData\source\repos\CSharp-Core\Lesson17_多态_vob\obj\Debug\netcoreapp3.1\Lesson17_多态_vob.csproj.CoreCompileInputs.cache
+C:\Users\RayData\source\repos\CSharp-Core\Lesson17_多态_vob\obj\Debug\netcoreapp3.1\Lesson17_多态_vob.dll
+C:\Users\RayData\source\repos\CSharp-Core\Lesson17_多态_vob\obj\Debug\netcoreapp3.1\Lesson17_多态_vob.pdb
+C:\Users\RayData\source\repos\CSharp-Core\Lesson17_多态_vob\obj\Debug\netcoreapp3.1\Lesson17_多态_vob.genruntimeconfig.cache
