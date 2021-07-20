@@ -1,0 +1,13 @@
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\bin\Debug\netcoreapp3.1\Lesson19_多态_接口.exe
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\bin\Debug\netcoreapp3.1\Lesson19_多态_接口.deps.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\bin\Debug\netcoreapp3.1\Lesson19_多态_接口.runtimeconfig.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\bin\Debug\netcoreapp3.1\Lesson19_多态_接口.runtimeconfig.dev.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\bin\Debug\netcoreapp3.1\Lesson19_多态_接口.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\bin\Debug\netcoreapp3.1\Lesson19_多态_接口.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\obj\Debug\netcoreapp3.1\Lesson19_多态_接口.csprojAssemblyReference.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\obj\Debug\netcoreapp3.1\Lesson19_多态_接口.AssemblyInfoInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\obj\Debug\netcoreapp3.1\Lesson19_多态_接口.AssemblyInfo.cs
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\obj\Debug\netcoreapp3.1\Lesson19_多态_接口.csproj.CoreCompileInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\obj\Debug\netcoreapp3.1\Lesson19_多态_接口.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\obj\Debug\netcoreapp3.1\Lesson19_多态_接口.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson19_多态_接口\obj\Debug\netcoreapp3.1\Lesson19_多态_接口.genruntimeconfig.cache
