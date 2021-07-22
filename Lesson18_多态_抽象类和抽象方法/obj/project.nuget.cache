@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8yneE1SF9o5ix+0d2vLiNwvY5fYnR0rgtPMCllTb/IhWoRUvUPMcKb1IJ9S4P4KPcHz8dArbMFfRM9sPXwKk8g==",
+  "dgSpecHash": "gydNVI2sss/SDKhjH29ax0B2rOHeILweaMuEC+bT3VfdmihDyODczXtCVp9LJxf7IYzR3q9YHyZ02rBwYRRhHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Erina\\source\\repos\\CSharp核心教学\\Lesson18_多态_抽象类和抽象方法\\Lesson18_多态_抽象类和抽象方法.csproj",
+  "projectFilePath": "C:\\Users\\RayData\\source\\repos\\CSharp-Core\\Lesson18_多态_抽象类和抽象方法\\Lesson18_多态_抽象类和抽象方法.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

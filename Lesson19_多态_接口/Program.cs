@@ -108,6 +108,48 @@ namespace Lesson19_多态_接口
         void Walk();
     }
     #endregion
+    #region Practice3
+    interface USB
+    {
+        void ReadData();
+    }
+    class StorageDevice:USB
+    {
+        public virtual void ReadData()
+        {
+
+        }
+    }
+    class UDisk : StorageDevice
+    {
+        public override void ReadData()
+        {
+            Console.WriteLine("U盘读取数据");
+        }
+    }
+    class MobileHDD : StorageDevice
+    {
+        public override void ReadData()
+        {
+            Console.WriteLine("移动硬盘读取数据");
+        }
+    }
+    class PlayDevice:USB
+    {
+        public virtual void ReadData()
+        {
+
+        }
+    }
+    class MP3 : PlayDevice
+    {
+        public override void ReadData()
+        {
+            Console.WriteLine("MP3读取数据");
+        }
+    }
+
+    #endregion
     class Program 
     {
         static void Main(string[] args)
@@ -129,6 +171,12 @@ namespace Lesson19_多态_接口
             (swan as IFly).Fly();
             swan.Walk();
 
+            StorageDevice mHDD = new MobileHDD();
+            StorageDevice UsbDisk = new UDisk();
+            PlayDevice Mp3 = new MP3();
+            mHDD.ReadData();
+            UsbDisk.ReadData();
+            Mp3.ReadData();
 
 
         }
