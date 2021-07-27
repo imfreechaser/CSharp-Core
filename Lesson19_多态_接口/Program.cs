@@ -109,16 +109,13 @@ namespace Lesson19_多态_接口
     }
     #endregion
     #region Practice3
-    interface USB
+    interface IUSB
     {
         void ReadData();
     }
-    class StorageDevice:USB
+    abstract class StorageDevice: IUSB
     {
-        public virtual void ReadData()
-        {
-
-        }
+        public abstract void ReadData();
     }
     class UDisk : StorageDevice
     {
@@ -134,12 +131,10 @@ namespace Lesson19_多态_接口
             Console.WriteLine("移动硬盘读取数据");
         }
     }
-    class PlayDevice:USB
+    abstract class PlayDevice: IUSB
     {
-        public virtual void ReadData()
-        {
+        public abstract void ReadData();
 
-        }
     }
     class MP3 : PlayDevice
     {
@@ -148,7 +143,13 @@ namespace Lesson19_多态_接口
             Console.WriteLine("MP3读取数据");
         }
     }
-
+    class Computer
+    {
+        /// <summary>
+        /// USB接口
+        /// </summary>
+        public IUSB uSB;
+    }
     #endregion
     class Program 
     {
@@ -174,9 +175,16 @@ namespace Lesson19_多态_接口
             StorageDevice mHDD = new MobileHDD();
             StorageDevice UsbDisk = new UDisk();
             PlayDevice Mp3 = new MP3();
-            mHDD.ReadData();
-            UsbDisk.ReadData();
-            Mp3.ReadData();
+
+            Computer c = new Computer();
+            c.uSB = mHDD;
+            c.uSB.ReadData();
+
+            c.uSB = UsbDisk;
+            c.uSB.ReadData();
+
+            c.uSB = Mp3;
+            c.uSB.ReadData();
 
 
         }

@@ -1,0 +1,13 @@
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\bin\Debug\netcoreapp3.1\lesson21.exe
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\bin\Debug\netcoreapp3.1\lesson21.deps.json
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\bin\Debug\netcoreapp3.1\lesson21.runtimeconfig.json
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\bin\Debug\netcoreapp3.1\lesson21.runtimeconfig.dev.json
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\bin\Debug\netcoreapp3.1\lesson21.dll
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\bin\Debug\netcoreapp3.1\lesson21.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\obj\Debug\netcoreapp3.1\lesson21.csprojAssemblyReference.cache
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\obj\Debug\netcoreapp3.1\lesson21.AssemblyInfoInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\obj\Debug\netcoreapp3.1\lesson21.AssemblyInfo.cs
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\obj\Debug\netcoreapp3.1\lesson21.csproj.CoreCompileInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\obj\Debug\netcoreapp3.1\lesson21.dll
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\obj\Debug\netcoreapp3.1\lesson21.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\lesson21\obj\Debug\netcoreapp3.1\lesson21.genruntimeconfig.cache
