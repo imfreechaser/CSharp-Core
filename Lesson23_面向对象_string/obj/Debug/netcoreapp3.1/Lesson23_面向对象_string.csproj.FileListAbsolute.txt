@@ -1,0 +1,12 @@
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson23_面向对象_string\bin\Debug\netcoreapp3.1\Lesson23_面向对象_string.exe
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson23_面向对象_string\bin\Debug\netcoreapp3.1\Lesson23_面向对象_string.deps.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson23_面向对象_string\bin\Debug\netcoreapp3.1\Lesson23_面向对象_string.runtimeconfig.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson23_面向对象_string\bin\Debug\netcoreapp3.1\Lesson23_面向对象_string.runtimeconfig.dev.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson23_面向对象_string\bin\Debug\netcoreapp3.1\Lesson23_面向对象_string.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson23_面向对象_string\bin\Debug\netcoreapp3.1\Lesson23_面向对象_string.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson23_面向对象_string\obj\Debug\netcoreapp3.1\Lesson23_面向对象_string.AssemblyInfoInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson23_面向对象_string\obj\Debug\netcoreapp3.1\Lesson23_面向对象_string.AssemblyInfo.cs
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson23_面向对象_string\obj\Debug\netcoreapp3.1\Lesson23_面向对象_string.csproj.CoreCompileInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson23_面向对象_string\obj\Debug\netcoreapp3.1\Lesson23_面向对象_string.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson23_面向对象_string\obj\Debug\netcoreapp3.1\Lesson23_面向对象_string.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson23_面向对象_string\obj\Debug\netcoreapp3.1\Lesson23_面向对象_string.genruntimeconfig.cache
