@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bLdMghXENIfqlgpmnPQ9Ibmf2TkLrriNMWGpBOiZELiGAXwz2M9YED3n055QpTsEGY9cURUlV1kBHTa17V466Q==",
+  "dgSpecHash": "bKn+PwFrSdHB0/uxvF4MtctnkzttfMluPMQkfVFlWLh7i3deOvnmKx29reEIc0hzGt6pdnDa6HFKtWs6fCPUdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RayData\\source\\repos\\CSharp-Core\\Lesson4_封装_构造函数和析构函数\\Lesson4_封装_构造函数和析构函数.csproj",
+  "projectFilePath": "C:\\Users\\Erina\\source\\repos\\CSharp核心教学\\Lesson4_封装_构造函数和析构函数\\Lesson4_封装_构造函数和析构函数.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

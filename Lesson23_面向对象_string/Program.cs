@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Lesson23_面向对象_string
 {
@@ -28,6 +29,10 @@ namespace Lesson23_面向对象_string
             Console.WriteLine(str1);
             Console.WriteLine(str2);
 
+            StringBuilder strb = new StringBuilder("iam艾琳娜");
+
+            strb[0] = 'I';
+            Console.WriteLine(strb);
         }
     }
 }
