@@ -1,0 +1,12 @@
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson25_结构体和类的区别\bin\Debug\netcoreapp3.1\Lesson25_结构体和类的区别.exe
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson25_结构体和类的区别\bin\Debug\netcoreapp3.1\Lesson25_结构体和类的区别.deps.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson25_结构体和类的区别\bin\Debug\netcoreapp3.1\Lesson25_结构体和类的区别.runtimeconfig.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson25_结构体和类的区别\bin\Debug\netcoreapp3.1\Lesson25_结构体和类的区别.runtimeconfig.dev.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson25_结构体和类的区别\bin\Debug\netcoreapp3.1\Lesson25_结构体和类的区别.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson25_结构体和类的区别\bin\Debug\netcoreapp3.1\Lesson25_结构体和类的区别.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson25_结构体和类的区别\obj\Debug\netcoreapp3.1\Lesson25_结构体和类的区别.AssemblyInfoInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson25_结构体和类的区别\obj\Debug\netcoreapp3.1\Lesson25_结构体和类的区别.AssemblyInfo.cs
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson25_结构体和类的区别\obj\Debug\netcoreapp3.1\Lesson25_结构体和类的区别.csproj.CoreCompileInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson25_结构体和类的区别\obj\Debug\netcoreapp3.1\Lesson25_结构体和类的区别.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson25_结构体和类的区别\obj\Debug\netcoreapp3.1\Lesson25_结构体和类的区别.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson25_结构体和类的区别\obj\Debug\netcoreapp3.1\Lesson25_结构体和类的区别.genruntimeconfig.cache

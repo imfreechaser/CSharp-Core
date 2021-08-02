@@ -10,3 +10,4 @@ C:\Users\Erina\source\repos\CSharp核心教学\Lesson7_封装_静态成员\obj\D
 C:\Users\Erina\source\repos\CSharp核心教学\Lesson7_封装_静态成员\obj\Debug\netcoreapp3.1\Lesson7_封装_静态成员.dll
 C:\Users\Erina\source\repos\CSharp核心教学\Lesson7_封装_静态成员\obj\Debug\netcoreapp3.1\Lesson7_封装_静态成员.pdb
 C:\Users\Erina\source\repos\CSharp核心教学\Lesson7_封装_静态成员\obj\Debug\netcoreapp3.1\Lesson7_封装_静态成员.genruntimeconfig.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson7_封装_静态成员\obj\Debug\netcoreapp3.1\Lesson7_封装_静态成员.csprojAssemblyReference.cache

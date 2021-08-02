@@ -11,3 +11,16 @@ C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\ob
 C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.dll
 C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.pdb
 C:\Users\RayData\source\repos\CSharp-Core\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.genruntimeconfig.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\bin\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.exe
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\bin\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.deps.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\bin\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.runtimeconfig.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\bin\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.runtimeconfig.dev.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\bin\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\bin\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.csprojAssemblyReference.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.AssemblyInfoInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.AssemblyInfo.cs
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.csproj.CoreCompileInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson11_ssssssssssssssssssdddddddd\obj\Debug\netcoreapp3.1\Lesson12_继承_继承的基本规则.genruntimeconfig.cache

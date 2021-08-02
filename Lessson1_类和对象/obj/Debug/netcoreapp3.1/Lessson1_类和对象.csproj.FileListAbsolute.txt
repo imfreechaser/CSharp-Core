@@ -1,0 +1,13 @@
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\bin\Debug\netcoreapp3.1\Lessson1_类和对象.exe
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\bin\Debug\netcoreapp3.1\Lessson1_类和对象.deps.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\bin\Debug\netcoreapp3.1\Lessson1_类和对象.runtimeconfig.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\bin\Debug\netcoreapp3.1\Lessson1_类和对象.runtimeconfig.dev.json
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\bin\Debug\netcoreapp3.1\Lessson1_类和对象.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\bin\Debug\netcoreapp3.1\Lessson1_类和对象.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\obj\Debug\netcoreapp3.1\Lessson1_类和对象.csprojAssemblyReference.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\obj\Debug\netcoreapp3.1\Lessson1_类和对象.AssemblyInfoInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\obj\Debug\netcoreapp3.1\Lessson1_类和对象.AssemblyInfo.cs
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\obj\Debug\netcoreapp3.1\Lessson1_类和对象.csproj.CoreCompileInputs.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\obj\Debug\netcoreapp3.1\Lessson1_类和对象.dll
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\obj\Debug\netcoreapp3.1\Lessson1_类和对象.pdb
+C:\Users\Erina\source\repos\CSharp核心教学\Lessson1_类和对象\obj\Debug\netcoreapp3.1\Lessson1_类和对象.genruntimeconfig.cache

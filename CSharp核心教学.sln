@@ -37,9 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson19_多态_接口", "L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson21", "lesson21\lesson21.csproj", "{EDFEECA4-A9A8-4D6B-AF82-E6ABCD0E5C5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson22", "Lesson22\Lesson22.csproj", "{4260B135-39AE-42ED-A185-AE755331D0EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson22", "Lesson22\Lesson22.csproj", "{4260B135-39AE-42ED-A185-AE755331D0EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson23_面向对象_string", "Lesson23_面向对象_string\Lesson23_面向对象_string.csproj", "{31A37911-BAEB-4AE7-980E-5EB3EEF390F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson23_面向对象_string", "Lesson23_面向对象_string\Lesson23_面向对象_string.csproj", "{31A37911-BAEB-4AE7-980E-5EB3EEF390F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson25_结构体和类的区别", "Lesson25_结构体和类的区别\Lesson25_结构体和类的区别.csproj", "{54A47490-662A-40A6-B7A2-A02E4C475459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson26_抽象类和接口的区别", "Lesson26_抽象类和接口的区别\Lesson26_抽象类和接口的区别.csproj", "{0AF718D0-5D60-4381-AA1C-B03636C91F32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{31A37911-BAEB-4AE7-980E-5EB3EEF390F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31A37911-BAEB-4AE7-980E-5EB3EEF390F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31A37911-BAEB-4AE7-980E-5EB3EEF390F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A47490-662A-40A6-B7A2-A02E4C475459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A47490-662A-40A6-B7A2-A02E4C475459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A47490-662A-40A6-B7A2-A02E4C475459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A47490-662A-40A6-B7A2-A02E4C475459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF718D0-5D60-4381-AA1C-B03636C91F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF718D0-5D60-4381-AA1C-B03636C91F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF718D0-5D60-4381-AA1C-B03636C91F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF718D0-5D60-4381-AA1C-B03636C91F32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,3 +10,4 @@ C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和�
 C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\obj\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.dll
 C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\obj\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.pdb
 C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\obj\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.genruntimeconfig.cache
+C:\Users\Erina\source\repos\CSharp核心教学\Lesson15_封装_万物之父和装箱拆箱\obj\Debug\netcoreapp3.1\Lesson15_封装_万物之父和装箱拆箱.csprojAssemblyReference.cache
