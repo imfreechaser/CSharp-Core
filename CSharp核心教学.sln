@@ -41,9 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson22", "Lesson22\Lesson
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson23_面向对象_string", "Lesson23_面向对象_string\Lesson23_面向对象_string.csproj", "{31A37911-BAEB-4AE7-980E-5EB3EEF390F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson25_结构体和类的区别", "Lesson25_结构体和类的区别\Lesson25_结构体和类的区别.csproj", "{54A47490-662A-40A6-B7A2-A02E4C475459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson25_结构体和类的区别", "Lesson25_结构体和类的区别\Lesson25_结构体和类的区别.csproj", "{54A47490-662A-40A6-B7A2-A02E4C475459}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson26_抽象类和接口的区别", "Lesson26_抽象类和接口的区别\Lesson26_抽象类和接口的区别.csproj", "{0AF718D0-5D60-4381-AA1C-B03636C91F32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson26_抽象类和接口的区别", "Lesson26_抽象类和接口的区别\Lesson26_抽象类和接口的区别.csproj", "{0AF718D0-5D60-4381-AA1C-B03636C91F32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "贪吃蛇", "贪吃蛇\贪吃蛇.csproj", "{7D604C6F-7644-40DB-8117-B49396871DB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{0AF718D0-5D60-4381-AA1C-B03636C91F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AF718D0-5D60-4381-AA1C-B03636C91F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AF718D0-5D60-4381-AA1C-B03636C91F32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D604C6F-7644-40DB-8117-B49396871DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D604C6F-7644-40DB-8117-B49396871DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D604C6F-7644-40DB-8117-B49396871DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D604C6F-7644-40DB-8117-B49396871DB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
