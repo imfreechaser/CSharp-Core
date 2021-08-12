@@ -4,34 +4,27 @@ using System.Text;
 
 namespace 贪吃蛇
 {
-    class BeginOrEnd:ISceneUpdate
+    abstract class BeginOrEnd:ISceneUpdate
     {
-        int NowSelectedID = 0;
-        string title = "贪吃蛇";
-        string btn1Name = "开始游戏";
-        string btn2Name = "退出游戏";
-
-        public void Print()
-        {
-
-            
-        }
+        public int NowSelectedID = 0;
+        public string title;
+        public string btn1Name;
+        public abstract void enterKeyDown();
         public void Update()
         {
-            Console.SetCursorPosition(37, 5);
+            Console.SetCursorPosition(Game.w/2 - title.Length, Game.h/4);
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write(title);
 
-            Console.SetCursorPosition(36, 11);
+            Console.SetCursorPosition(Game.w / 2 - btn1Name.Length, Game.h / 2 + 1);
             Console.ForegroundColor = NowSelectedID == 0 ? ConsoleColor.Red : ConsoleColor.White;
             Console.Write(btn1Name);
 
-            Console.SetCursorPosition(36, 13);
+            Console.SetCursorPosition(Game.w / 2 - 4, Game.h / 2 + 3);
             Console.ForegroundColor = NowSelectedID == 1 ? ConsoleColor.Red : ConsoleColor.White;
-            Console.Write(btn2Name);
+            Console.Write("退出游戏");
 
-            ConsoleKey key = Console.ReadKey(true).Key;
-            switch (key)
+            switch (Console.ReadKey(true).Key)
             {
                 case ConsoleKey.UpArrow:
                 case ConsoleKey.W:
@@ -45,15 +38,45 @@ namespace 贪吃蛇
                     if (NowSelectedID > 1)
                        NowSelectedID = 1;
                     break;
+                case ConsoleKey.Enter:
+                    if (NowSelectedID == 0)
+                    {
+                        enterKeyDown();
+                    }
+                    else if (NowSelectedID == 1)
+                    {
+                        Environment.Exit(0);
+                    }
+                    break;
                 default:
                     break;
             }
-
+            
 
         }
     }
     class Begin : BeginOrEnd
     {
-
+        public Begin()
+        {
+            title = "贪吃蛇";
+            btn1Name = "开始游戏";
+        }
+        public override void enterKeyDown()
+        {
+            Game.ChangeScene(E_SceneType.Game);
+        }
+    }
+    class End : BeginOrEnd
+    {
+        public End()
+        {
+            title = "游戏结束";
+            btn1Name = "回到开始界面";
+        }
+        public override void enterKeyDown()
+        {
+            Game.ChangeScene(E_SceneType.Begin);
+        }
     }
 }
