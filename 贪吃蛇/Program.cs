@@ -6,8 +6,8 @@ namespace 贪吃蛇
     {
         static void Main(string[] args)
         {
-            Game game = new Game();
-            game.Start();
+            Game game = new Game();//初始化游戏设置
+            game.Start();//让游戏开始
         }
     }
 }
