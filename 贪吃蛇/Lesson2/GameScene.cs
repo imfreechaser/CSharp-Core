@@ -9,7 +9,8 @@ namespace 贪吃蛇
         public void Update()
         {
             Console.SetCursorPosition(0,0);
-            Console.WriteLine("游戏场景");
+            MapWall mapWall = new MapWall();
+            mapWall.Print();
         }
     }
 }
