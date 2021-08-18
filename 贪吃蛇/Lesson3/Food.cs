@@ -4,18 +4,16 @@ using System.Text;
 
 namespace 贪吃蛇
 {
-    class Food : GameObject
+    class Food:GameObject
     {
-        public Food(int x, int y)
-        {
-            position = new Vector(x, y);
-            //this.icon = icon;
-            //this.color = color;
-        }
+        int x, y;
+        Random r = new Random();
         public override void Print()
         {
-            Console.SetCursorPosition(position.posX, position.posY);
-            Console.BackgroundColor = ConsoleColor.Yellow;
+            x = r.Next(2, Game.w - 4);
+            y = r.Next(1, Game.h - 2);
+            Console.SetCursorPosition(x, y);
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("⊙");
         }
 

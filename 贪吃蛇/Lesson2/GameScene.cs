@@ -8,9 +8,17 @@ namespace 贪吃蛇
     {
         public void Update()
         {
-            Console.SetCursorPosition(0,0);
+            //打印地图墙壁
             MapWall mapWall = new MapWall();
             mapWall.Print();
+            //打印食物,在上一个食物吃完之后
+            Food food = new Food();
+            ConsoleKey key = Console.ReadKey(true).Key;
+            if (key == ConsoleKey.E)
+            {
+                food.Print();
+            }
+            
         }
     }
 }
