@@ -4,17 +4,22 @@ using System.Text;
 
 namespace 贪吃蛇
 {
-    class Brick:GameObject
+    enum E_PartType
     {
-        public Brick(int x, int y)
+        SnakeHead,
+        SnakeBody
+    }
+    class SnakePart:GameObject
+    {
+        E_PartType partType;
+        public SnakePart(int x, int y)
         {
             position = new Vector(x, y);
         }
         public override void Print()
         {
             Console.SetCursorPosition(position.posX, position.posY);
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write("■");
+            Console.Write("{0}",partType == E_PartType.SnakeHead?"¤":"●");
         }
     }
 }

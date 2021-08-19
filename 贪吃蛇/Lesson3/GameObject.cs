@@ -20,6 +20,6 @@ namespace 贪吃蛇
         {
             
         }
-        protected Vector position;
+        public Vector position;
     }
 }

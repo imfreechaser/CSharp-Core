@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iku5KAKU39v0V10dR96joARbtRegdWuQlr21GXaqQoSDRdtHsF5ykH2BG7l16moGG47kZxmztXH6wBAp8XQkpw==",
+  "dgSpecHash": "AvTHTkvTk30NhMbrSrURMqZqp9QvWZOnrY8MWkKHM7Y1EJHgYuT5BcI6F8K5sr6mAM0UYTKVVHX/Q+YnRD9UcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Erina\\source\\repos\\CSharp核心教学\\Lesson17_多态_vob\\Lesson17_多态_vob.csproj",
+  "projectFilePath": "C:\\Users\\RayData\\source\\repos\\CSharp-Core\\Lesson17_多态_vob\\Lesson17_多态_vob.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

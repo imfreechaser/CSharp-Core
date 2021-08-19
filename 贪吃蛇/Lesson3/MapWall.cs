@@ -4,10 +4,10 @@ using System.Text;
 
 namespace 贪吃蛇
 {
-    class MapWall : GameObject
+    class Map
     {
         Brick[] bricks = new Brick[Game.w + Game.h * 2 - 4];
-        public override void Print()
+        public void Print()
         {
             for (int i = 0, x = 0, y = 0; i < Game.w/2; i++)
             {
