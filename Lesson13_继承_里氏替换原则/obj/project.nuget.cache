@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BWUhrOtIOiiKTbcUiYACfzeUBR+OL3xE7JhCBbSUUCQwoEtwpOTVvtDuQ+KZopmYSDSy900vqXplAfCbcLl/vg==",
+  "dgSpecHash": "tTzCtoiydlPPphRZIVKmcrQBBxN0lrAqMxd5b6STuJwdOpM18j+m6E4T5tRc2lMYNIWOP5zcU9nEbUGROBv0AQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RayData\\source\\repos\\CSharp-Core\\Lesson13_继承_里氏替换原则\\Lesson13_继承_里氏替换原则.csproj",
+  "projectFilePath": "C:\\Users\\Erina\\source\\repos\\CSharp核心教学\\Lesson13_继承_里氏替换原则\\Lesson13_继承_里氏替换原则.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

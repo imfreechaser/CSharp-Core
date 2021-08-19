@@ -11,7 +11,7 @@ namespace 贪吃蛇
     }
     class SnakePart:GameObject
     {
-        E_PartType partType;
+        public E_PartType partType;
         public SnakePart(int x, int y)
         {
             position = new Vector(x, y);

@@ -18,6 +18,10 @@ namespace 贪吃蛇
             {
                 food.Print();
             }
+            //初始化蛇
+            Snake snake = new Snake();
+            snake.Print();
+            snake.Move();
             
         }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rm38hSM4+3E77XY7WI0cc8808vdezkk36kBoPZTJY3Oj6fiPrQQMn3rTnGkLRdDb+LhPeVJFViGDnJiNHfMHtA==",
+  "dgSpecHash": "u+QC/iBWOIPhDNJversGq2Q4b7CtKNPnc8v80slicDsKGomzXS+cc5bsti1CBkfvbKRhwnbNAsVMk3uX/GLjFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RayData\\source\\repos\\CSharp-Core\\Lesson19_多态_接口\\Lesson19_多态_接口.csproj",
+  "projectFilePath": "C:\\Users\\Erina\\source\\repos\\CSharp核心教学\\Lesson19_多态_接口\\Lesson19_多态_接口.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -16,47 +16,79 @@ namespace 贪吃蛇
         //初始化蛇
         SnakePart[] snake = new SnakePart[partCapacity];
         static int partCapacity = 10;
-        int partLength = 0;
+        int partLength = 1;
+        int snakeHeadPosX = 40;
+        int snakeHeadPosY = 10;
+        
         //蛇当前的运动方向
         E_MoveDirection moveDirection = E_MoveDirection.right;
         //绘制蛇
         public void Print()
         {
-            
+            for (int i = 0; i < partLength; i++)
+            {
+                if(i != 0)
+                    snake[i].partType = E_PartType.SnakeBody;
+                else
+                {
+                    snake[0] = new SnakePart(snakeHeadPosX, snakeHeadPosY);
+                    snake[0].partType = E_PartType.SnakeHead;
+                }
+                snake[i].Print();
+            }
         }
         //蛇移动
         public void Move()
         {
-            for (int i = 0; i < snake.Length; i++)
+            int lastFramePosX = 0, lastFramePosY = 0;
+            for (int i = 0; i < partLength; i++)
             {
-                switch (moveDirection)
+                if(i == 0)
                 {
-                    case E_MoveDirection.up:
-                        snake[i].position.posY--;
-                        break;
-                    case E_MoveDirection.down:
-                        snake[i].position.posY++;
-                        break;
-                    case E_MoveDirection.left:
-                        snake[i].position.posX--;
-                        break;
-                    case E_MoveDirection.right:
-                        snake[i].position.posX++;
-                        break;
-                    default:
-                        break;
+                    lastFramePosX = snakeHeadPosX;
+                    lastFramePosY = snakeHeadPosY;
                 }
-                //死亡判断
-                if((snake[i].position.posX == 0 || snake[i].position.posX == 38) && (snake[i].position.posY >= 0 && snake[i].position.posY <= 19)
-                    ||(snake[i].position.posY == 0 || snake[i].position.posY == 19)&&(snake[i].position.posX >= 0 && snake[i].position.posX <= 38))
+                else
+                {
+                    snake[i].position.posX = lastFramePosX;
+                    snake[i].position.posY = lastFramePosY;
 
-                //绘 制蛇
-                Print();
-                
-
-                //吃食物判断
+                    lastFramePosX = snake[i].position.posX;
+                    lastFramePosY = snake[i].position.posY;
+                }
             }
-            
+            //改变蛇头的位置
+            switch (moveDirection)
+            {
+                case E_MoveDirection.up:
+                    snakeHeadPosY--;
+                    break;
+                case E_MoveDirection.down:
+                    snakeHeadPosY++;
+                    break;
+                case E_MoveDirection.left:
+                    snakeHeadPosX--;
+                    break;
+                case E_MoveDirection.right:
+                    snakeHeadPosX++; 
+                    break;
+                default:
+                    break;
+            }
+            #region 死亡判断
+            //1.蛇头撞到墙壁
+            if ((snakeHeadPosX == 0 || snakeHeadPosX == 38) &&
+                (snakeHeadPosY >= 0 && snakeHeadPosY <= 19) ||
+                (snakeHeadPosY == 0 || snakeHeadPosY == 19) &&
+                (snakeHeadPosX >= 0 && snakeHeadPosX <= 38))
+            {
+                Die();
+            }
+            //2.蛇头撞到自己的身体
+            #endregion
+            //绘 制蛇
+            Print();
+            //吃食物判断
         }
         public void ChangeDirection()
         {
@@ -64,9 +96,7 @@ namespace 贪吃蛇
         }
         public void AddBodyParts()
         {
-            if (partLength < partCapacity)
-               ++partLength;//添加长度
-            else
+            if (partLength >= partCapacity)
             {
                 //扩容、迁移数组
                 partCapacity += 10;
@@ -76,11 +106,10 @@ namespace 贪吃蛇
                     snake1[i] = snake[i];
                 }
                 snake = snake1;
-                //添加长度
-                ++partLength;
+
             }
-            //添加身体，定位置
-            //snake[partLength - 1] = new SnakePart();
+            //添加长度
+            ++partLength;
         }
         public void Eat()
         {
@@ -88,7 +117,7 @@ namespace 贪吃蛇
         }
         public void Die()
         {
-
+            Game.ChangeScene(E_SceneType.End);
         }
 
     }
