@@ -6,23 +6,31 @@ namespace 贪吃蛇
 {
     class GameScene : ISceneUpdate
     {
+        //初始化地图
+        Map map = new Map();
+        //初始化蛇
+        Snake snake = new Snake();
+        //更新速度
+        int frame = 1;
+        int frameSpeed = 150000000;
         public void Update()
         {
-            //打印地图墙壁
-            Map map = new Map();
-            map.Print();
             //打印食物,在上一个食物吃完之后
-            Food food = new Food();
-            ConsoleKey key = Console.ReadKey(true).Key;
-            if (key == ConsoleKey.E)
+            //Food food = new Food();
+            //ConsoleKey key = Console.ReadKey(true).Key;
+            //if (key == ConsoleKey.E)
+            //{
+            //    food.Print();
+            //}
+
+            if(frame % frameSpeed == 0)
             {
-                food.Print();
+                //初始化蛇
+                //snake.Print();
+                snake.Move();
             }
-            //初始化蛇
-            Snake snake = new Snake();
-            snake.Print();
-            snake.Move();
-            
+
+            frame++;
         }
     }
 }

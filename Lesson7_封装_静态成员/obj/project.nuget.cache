@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7wObJFnFAfOxkgydi7fNa4DlGt3cAwhiPv9vE15HMKgfq0PavK/xHYbQAGFFdLuMlLT7ViseQ6P9aMWjJ9e/YA==",
+  "dgSpecHash": "i4qfZlmt/0bVXShh62L2WRwehrHb6xC++3LHWTrsmrmGf5F2ylaT35kdZvLYHfKSYxT+Wcp2qfczQmayuH9hiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Erina\\source\\repos\\CSharp核心教学\\Lesson7_封装_静态成员\\Lesson7_封装_静态成员.csproj",
+  "projectFilePath": "C:\\Users\\RayData\\source\\repos\\CSharp-Core\\Lesson7_封装_静态成员\\Lesson7_封装_静态成员.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

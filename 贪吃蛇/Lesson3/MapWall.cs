@@ -34,5 +34,9 @@ namespace 贪吃蛇
                 y++;
             }
         }
+        public Map()
+        {
+            Print();
+        }
     }
 }
