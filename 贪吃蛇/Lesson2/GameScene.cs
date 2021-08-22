@@ -8,6 +8,8 @@ namespace 贪吃蛇
     {
         //初始化地图
         Map map = new Map();
+        //初始化食物
+        public Food food = new Food();
         //初始化蛇
         Snake snake = new Snake();
         //更新速度
@@ -15,21 +17,17 @@ namespace 贪吃蛇
         int frameSpeed = 150000000;
         public void Update()
         {
-            //打印食物,在上一个食物吃完之后
-            //Food food = new Food();
-            //ConsoleKey key = Console.ReadKey(true).Key;
-            //if (key == ConsoleKey.E)
-            //{
-            //    food.Print();
-            //}
-
-            if(frame % frameSpeed == 0)
+            if (frame % frameSpeed == 0)//游戏帧的内容
             {
-                //初始化蛇
-                //snake.Print();
-                snake.Move();
+                //打印食物,在上一个食物吃完之后
+                if (Food.foodExist == false)
+                {
+                    food.Print();
+                    Food.foodExist = true;
+                }
+                //蛇先运动
+                snake.Move(food); 
             }
-
             frame++;
         }
     }

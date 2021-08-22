@@ -6,16 +6,19 @@ namespace 贪吃蛇
 {
     class Food:GameObject
     {
-        int x, y;
+        public static bool foodExist = true;
         Random r = new Random();
         public override void Print()
         {
-            x = r.Next(2, Game.w - 4);
-            y = r.Next(1, Game.h - 2);
-            Console.SetCursorPosition(x, y);
+            position.posX = 2 * r.Next(1, (Game.w - 4)/2);
+            position.posY = r.Next(1, Game.h - 2);
+            Console.SetCursorPosition(position.posX, position.posY);
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("⊙");
         }
-
+        public Food()
+        {
+            Print();
+        }
     }
 }
