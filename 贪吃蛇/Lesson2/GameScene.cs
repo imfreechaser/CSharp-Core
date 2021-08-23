@@ -9,7 +9,7 @@ namespace 贪吃蛇
         //初始化地图
         Map map = new Map();
         //初始化食物
-        public Food food = new Food();
+        Food food = new Food();
         //初始化蛇
         Snake snake = new Snake();
         //更新速度

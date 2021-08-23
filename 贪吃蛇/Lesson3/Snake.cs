@@ -19,12 +19,12 @@ namespace 贪吃蛇
         int partLength = 1;
 
         //蛇头位置
-        int snakeHeadPosX = 40;
-        int snakeHeadPosY = 10;
+        Vector snakeHead = new Vector(40, 10);
 
         //上一帧尾巴位置
-        int lastFramePosX = 0;
-        int lastFramePosY = 0;
+        Vector lastFramePos = new Vector(0, 0);
+        //int lastFramePos.posX = 0;
+        //int lastFramePos.posY = 0;
 
         //判断上一帧有没有吃食物
         bool hasEaten = false;
@@ -38,7 +38,7 @@ namespace 贪吃蛇
             {
                 if (i == 0)
                 {
-                    snake[0] = new SnakePart(snakeHeadPosX, snakeHeadPosY);
+                    snake[0] = new SnakePart(snakeHead.posX, snakeHead.posY);
                     snake[0].partType = E_PartType.SnakeHead;
                 }
                 else
@@ -54,9 +54,9 @@ namespace 贪吃蛇
             Print();
 
             //擦除上一帧的痕迹
-            if (lastFramePosX != 0 && lastFramePosY != 0 && !hasEaten)
+            if (lastFramePos != new Vector(0,0) && !hasEaten)
             {
-                Console.SetCursorPosition(lastFramePosX, lastFramePosY);
+                Console.SetCursorPosition(lastFramePos.posX, lastFramePos.posY);
                 Console.Write("  ");
             }
 
@@ -67,16 +67,16 @@ namespace 贪吃蛇
             switch (moveDirection)
             {
                 case E_MoveDirection.up:
-                    snakeHeadPosY--;
+                    snakeHead.posY--;
                     break;
                 case E_MoveDirection.down:
-                    snakeHeadPosY++;
+                    snakeHead.posY++;
                     break;
                 case E_MoveDirection.left:
-                    snakeHeadPosX -= 2;
+                    snakeHead.posX -= 2;
                     break;
                 case E_MoveDirection.right:
-                    snakeHeadPosX += 2;
+                    snakeHead.posX += 2;
                     break;
                 default:
                     break;
@@ -84,26 +84,26 @@ namespace 贪吃蛇
 
             #region 死亡判断
             //1.蛇头撞到墙壁
-            if (snakeHeadPosX == 0 || snakeHeadPosX == 78 ||
-                snakeHeadPosY == 0 || snakeHeadPosY == 19 )
+            if (snakeHead.posX == 0 || snakeHead.posX == Game.w - 2 ||
+                snakeHead.posY == 0 || snakeHead.posY == Game.h - 1 )
             {
                 Die();
             }
             //2.蛇头撞到自己的身体
             for (int i = 3; i < partLength; i++)
             {
-                if(snakeHeadPosX == snake[i].position.posX && snakeHeadPosY == snake[i].position.posY)
+                if(snakeHead == snake[i].position)
                     Die();
             }
             #endregion
 
             //尾巴位置赋值
-            lastFramePosX = snake[partLength - 1].position.posX;
-            lastFramePosY = snake[partLength - 1].position.posY;
+            lastFramePos.posX = snake[partLength - 1].position.posX;
+            lastFramePos.posY = snake[partLength - 1].position.posY;
 
             //吃食物判断
             hasEaten = false;
-            if (snakeHeadPosX == food.position.posX && snakeHeadPosY == food.position.posY)
+            if (snakeHead == food.position)
             {
                 Eat();
                 hasEaten = true;

@@ -13,13 +13,22 @@ namespace 贪吃蛇
             this.posX = posX;
             this.posY = posY;
         }
-    }
-    class GameObject : IPrint
-    {
-        public virtual void Print()
+        public static bool operator ==(Vector v1,Vector v2)
         {
-            
+            if (v1.posX == v2.posX && v1.posY == v2.posY)
+                return true;
+            return false;
         }
+        public static bool operator !=(Vector v1, Vector v2)
+        {
+            if (v1.posX == v2.posX && v1.posY == v2.posY)
+                return false;
+            return true;
+        }
+    }
+    abstract class GameObject : IPrint
+    {
+        public abstract void Print();
         public Vector position;
     }
 }
