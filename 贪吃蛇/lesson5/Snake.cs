@@ -23,8 +23,6 @@ namespace 贪吃蛇
 
         //上一帧尾巴位置
         Vector lastFramePos = new Vector(0, 0);
-        //int lastFramePos.posX = 0;
-        //int lastFramePos.posY = 0;
 
         //判断上一帧有没有吃食物
         bool hasEaten = false;
@@ -38,12 +36,7 @@ namespace 贪吃蛇
             {
                 if (i == 0)
                 {
-                    snake[0] = new SnakePart(snakeHead.posX, snakeHead.posY);
-                    snake[0].partType = E_PartType.SnakeHead;
-                }
-                else
-                {
-                    snake[i].partType = E_PartType.SnakeBody;
+                    snake[0] = new SnakePart(snakeHead.posX, snakeHead.posY, E_PartType.SnakeHead);
                 }
                 snake[i].Print();
             }
@@ -112,7 +105,7 @@ namespace 贪吃蛇
             //设置蛇身位置
             for (int i = partLength - 1; i > 0; i--)
             {
-                snake[i] = new SnakePart(snake[i - 1].position.posX, snake[i - 1].position.posY);
+                snake[i] = new SnakePart(snake[i - 1].position.posX, snake[i - 1].position.posY, E_PartType.SnakeBody);
             }
         }
         public void ChangeDirection()
