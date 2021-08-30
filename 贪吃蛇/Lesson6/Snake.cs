@@ -13,8 +13,8 @@ namespace 贪吃蛇
     }
     class Snake
     {
-        //初始化蛇
-        SnakePart[] snake = new SnakePart[partCapacity];
+        //创建蛇及数组字段
+        SnakePart[] snake;
         static int partCapacity = 10;
         int partLength = 1;
 
@@ -30,14 +30,17 @@ namespace 贪吃蛇
         //蛇当前的运动方向
         E_MoveDirection moveDirection = E_MoveDirection.right;
 
+        public Snake()
+        {
+            snake = new SnakePart[partCapacity];
+            //初始化蛇头
+            snake[0] = new SnakePart(snakeHead.posX, snakeHead.posY, E_PartType.SnakeHead);
+        }
+
         public void Print()
         {
             for (int i = 0; i < partLength; i++)
-            {
-                if (i == 0)
-                {
-                    snake[0] = new SnakePart(snakeHead.posX, snakeHead.posY, E_PartType.SnakeHead);
-                }
+            { 
                 snake[i].Print();
             }
         }
@@ -102,11 +105,12 @@ namespace 贪吃蛇
                 hasEaten = true;
             }
 
-            //设置蛇身位置
+            //设置蛇身位置、蛇头赋值
             for (int i = partLength - 1; i > 0; i--)
             {
                 snake[i] = new SnakePart(snake[i - 1].position.posX, snake[i - 1].position.posY, E_PartType.SnakeBody);
             }
+            snake[0] = new SnakePart(snakeHead.posX, snakeHead.posY, E_PartType.SnakeHead); 
         }
         public void ChangeDirection()
         {

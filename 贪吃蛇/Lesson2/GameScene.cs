@@ -6,15 +6,19 @@ namespace 贪吃蛇
 {
     class GameScene : ISceneUpdate
     {
-        //初始化地图
-        Map map = new Map();
-        //初始化食物
-        Food food = new Food();
-        //初始化蛇
-        Snake snake = new Snake();
+        Map map;
+        Food food;
+        Snake snake;
         //更新速度
         int frame = 1;
         int frameSpeed = 150000000;
+
+        public GameScene()
+        {
+            map = new Map();
+            food = new Food();
+            snake = new Snake();
+        }
         public void Update()
         {
             if (frame % frameSpeed == 0)//游戏帧的内容
