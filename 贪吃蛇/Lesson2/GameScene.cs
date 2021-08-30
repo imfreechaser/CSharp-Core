@@ -11,7 +11,7 @@ namespace 贪吃蛇
         Snake snake;
         //更新速度
         int frame = 1;
-        int frameSpeed = 150000000;
+        int frameSpeed = 15000;
 
         public GameScene()
         {
@@ -30,9 +30,32 @@ namespace 贪吃蛇
                     Food.foodExist = true;
                 }
                 //蛇先运动
-                snake.Move(food); 
+                snake.Move(food);
+                snake.Print();
             }
             frame++;
+            //判断有无键盘输入
+            if (Console.KeyAvailable)
+            {
+                //检测输入输出
+                switch (Console.ReadKey(true).Key)
+                {
+                    case ConsoleKey.W:
+                        snake.ChangeDirection(E_MoveDirection.up);
+                        break;
+                    case ConsoleKey.S:
+                        snake.ChangeDirection(E_MoveDirection.down);
+                        break;
+                    case ConsoleKey.A:
+                        snake.ChangeDirection(E_MoveDirection.left);
+                        break;
+                    case ConsoleKey.D:
+                        snake.ChangeDirection(E_MoveDirection.right);
+                        break;
+                    default:
+                        break;
+                }
+            }
         }
     }
 }

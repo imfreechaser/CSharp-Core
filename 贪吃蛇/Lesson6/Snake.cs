@@ -17,24 +17,23 @@ namespace 贪吃蛇
         SnakePart[] snake;
         static int partCapacity = 10;
         int partLength = 1;
-
         //蛇头位置
-        Vector snakeHead = new Vector(40, 10);
-
+        Vector snakeHead;
         //上一帧尾巴位置
         Vector lastFramePos = new Vector(0, 0);
-
         //判断上一帧有没有吃食物
         bool hasEaten = false;
-
-        //蛇当前的运动方向
-        E_MoveDirection moveDirection = E_MoveDirection.right;
+        //蛇的运动方向
+        E_MoveDirection moveDirection;
 
         public Snake()
         {
             snake = new SnakePart[partCapacity];
             //初始化蛇头
+            snakeHead = new Vector(40, 10);
             snake[0] = new SnakePart(snakeHead.posX, snakeHead.posY, E_PartType.SnakeHead);
+            //初始化运动方向
+            moveDirection = E_MoveDirection.right;
         }
 
         public void Print()
@@ -46,19 +45,6 @@ namespace 贪吃蛇
         }
         public void Move(Food food)
         {
-            //绘 制蛇
-            Print();
-
-            //擦除上一帧的痕迹
-            if (lastFramePos != new Vector(0,0) && !hasEaten)
-            {
-                Console.SetCursorPosition(lastFramePos.posX, lastFramePos.posY);
-                Console.Write("  ");
-            }
-
-            //检测输入
-            ChangeDirection();
-
             //改变蛇头的位置
             switch (moveDirection)
             {
@@ -94,8 +80,7 @@ namespace 贪吃蛇
             #endregion
 
             //尾巴位置赋值
-            lastFramePos.posX = snake[partLength - 1].position.posX;
-            lastFramePos.posY = snake[partLength - 1].position.posY;
+            lastFramePos = snake[partLength - 1].position;
 
             //吃食物判断
             hasEaten = false;
@@ -110,28 +95,31 @@ namespace 贪吃蛇
             {
                 snake[i] = new SnakePart(snake[i - 1].position.posX, snake[i - 1].position.posY, E_PartType.SnakeBody);
             }
-            snake[0] = new SnakePart(snakeHead.posX, snakeHead.posY, E_PartType.SnakeHead); 
-        }
-        public void ChangeDirection()
-        {
-            switch (Console.ReadKey(true).Key)
-            {
-                case ConsoleKey.W:
-                    moveDirection = E_MoveDirection.up;
-                    break;
-                case ConsoleKey.S:
-                    moveDirection = E_MoveDirection.down;
-                    break;
-                case ConsoleKey.A:
-                    moveDirection = E_MoveDirection.left;
-                    break;
-                case ConsoleKey.D:
-                    moveDirection = E_MoveDirection.right;
-                    break;
-                default:
-                    break;
-            }
+            snake[0] = new SnakePart(snakeHead.posX, snakeHead.posY, E_PartType.SnakeHead);
 
+            //擦除上一帧的痕迹
+            if (lastFramePos != new Vector(0, 0) && !hasEaten)
+            {
+                Console.SetCursorPosition(lastFramePos.posX, lastFramePos.posY);
+                Console.Write("  ");
+            }
+        }
+        public void ChangeDirection(E_MoveDirection newDir)//传入一个新方向，然后判断如何改变原方向
+        {
+            //只有头部时，没有转向的限制，各个方向都能走；
+            //有身体时，有转向限制：不能往身体的方向走；
+            //所以，有限制的情况比较少，单独拎出来写，其他都是没有限制的情况，就按输入的新方向来改变方向；
+
+            //有限制的情况时，不改变方向
+            if (partLength > 1 &&
+                (moveDirection == E_MoveDirection.right && newDir == E_MoveDirection.left) ||
+                (moveDirection == E_MoveDirection.left && newDir == E_MoveDirection.right) ||
+                (moveDirection == E_MoveDirection.up && newDir == E_MoveDirection.down) ||
+                (moveDirection == E_MoveDirection.down && newDir == E_MoveDirection.up)
+                )
+                return;
+            else
+                moveDirection = newDir;
         }
         public void AddBodyParts()
         {
