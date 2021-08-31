@@ -29,9 +29,9 @@ namespace 贪吃蛇
                     food.Print();
                     Food.foodExist = true;
                 }
-                //蛇先运动
-                snake.Move(food);
                 snake.Print();
+                snake.Move(food);
+
             }
             frame++;
             //判断有无键盘输入

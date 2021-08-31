@@ -45,6 +45,12 @@ namespace 贪吃蛇
         }
         public void Move(Food food)
         {
+            //擦除上一帧的痕迹
+            if (lastFramePos != new Vector(0, 0) && !hasEaten)
+            {
+                Console.SetCursorPosition(lastFramePos.posX, lastFramePos.posY);
+                Console.Write("  ");
+            }
             //改变蛇头的位置
             switch (moveDirection)
             {
@@ -64,31 +70,17 @@ namespace 贪吃蛇
                     break;
             }
 
-            #region 死亡判断
-            //1.蛇头撞到墙壁
-            if (snakeHead.posX == 0 || snakeHead.posX == Game.w - 2 ||
-                snakeHead.posY == 0 || snakeHead.posY == Game.h - 1 )
+            //死亡判断
+            if (CheckEnd())
             {
-                Die();
+                Game.ChangeScene(E_SceneType.End);
             }
-            //2.蛇头撞到自己的身体
-            for (int i = 3; i < partLength; i++)
-            {
-                if(snakeHead == snake[i].position)
-                    Die();
-            }
-            #endregion
 
             //尾巴位置赋值
             lastFramePos = snake[partLength - 1].position;
 
             //吃食物判断
-            hasEaten = false;
-            if (snakeHead == food.position)
-            {
-                Eat();
-                hasEaten = true;
-            }
+            CheckEat(food);
 
             //设置蛇身位置、蛇头赋值
             for (int i = partLength - 1; i > 0; i--)
@@ -97,12 +89,7 @@ namespace 贪吃蛇
             }
             snake[0] = new SnakePart(snakeHead.posX, snakeHead.posY, E_PartType.SnakeHead);
 
-            //擦除上一帧的痕迹
-            if (lastFramePos != new Vector(0, 0) && !hasEaten)
-            {
-                Console.SetCursorPosition(lastFramePos.posX, lastFramePos.posY);
-                Console.Write("  ");
-            }
+            
         }
         public void ChangeDirection(E_MoveDirection newDir)//传入一个新方向，然后判断如何改变原方向
         {
@@ -138,14 +125,31 @@ namespace 贪吃蛇
             //添加长度
             ++partLength;
         }
-        public void Eat()//身体长度+1、重新长出另一个食物
+        public void CheckEat(Food food)//身体长度+1、重新长出另一个食物
         {
-            AddBodyParts();
-            Food.foodExist = false;
+            hasEaten = false;
+            if (snakeHead == food.position)
+            {
+                AddBodyParts();
+                Food.foodExist = false;
+                hasEaten = true;
+            }
         }
-        public void Die()
+        public bool CheckEnd()
         {
-            Game.ChangeScene(E_SceneType.End);
+            //1.蛇头撞到墙壁
+            if (snakeHead.posX == 0 || snakeHead.posX == Game.w - 2 ||
+                snakeHead.posY == 0 || snakeHead.posY == Game.h - 1)
+            {
+                return true;
+            }
+            //2.蛇头撞到自己的身体
+            for (int i = 3; i < partLength; i++)
+            {
+                if (snakeHead == snake[i].position)
+                    return true;
+            }
+            return false;
         }
 
     }
