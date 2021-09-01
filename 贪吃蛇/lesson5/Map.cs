@@ -6,7 +6,7 @@ namespace 贪吃蛇
 {
     class Map
     {
-        Brick[] bricks;
+        public Brick[] bricks;
         public void Print()
         {
             for (int i = 0; i < bricks.Length; i++)

@@ -30,8 +30,15 @@ namespace 贪吃蛇
                     Food.foodExist = true;
                 }
                 snake.Print();
+
                 snake.Move(food);
 
+                if (snake.CheckEnd(map))
+                {
+                    Game.ChangeScene(E_SceneType.End);
+                }
+
+                snake.CheckEat(food);
             }
             frame++;
             //判断有无键盘输入
