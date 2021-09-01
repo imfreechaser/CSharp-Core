@@ -24,3 +24,16 @@ C:\Users\RayData\source\repos\CSharp-Core\贪吃蛇\obj\Debug\netcoreapp3.1\贪�
 C:\Users\RayData\source\repos\CSharp-Core\贪吃蛇\obj\Debug\netcoreapp3.1\贪吃蛇.dll
 C:\Users\RayData\source\repos\CSharp-Core\贪吃蛇\obj\Debug\netcoreapp3.1\贪吃蛇.pdb
 C:\Users\RayData\source\repos\CSharp-Core\贪吃蛇\obj\Debug\netcoreapp3.1\贪吃蛇.genruntimeconfig.cache
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\bin\Debug\netcoreapp3.1\贪吃蛇.exe
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\bin\Debug\netcoreapp3.1\贪吃蛇.deps.json
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\bin\Debug\netcoreapp3.1\贪吃蛇.runtimeconfig.json
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\bin\Debug\netcoreapp3.1\贪吃蛇.runtimeconfig.dev.json
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\bin\Debug\netcoreapp3.1\贪吃蛇.dll
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\bin\Debug\netcoreapp3.1\贪吃蛇.pdb
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\obj\Debug\netcoreapp3.1\贪吃蛇.csprojAssemblyReference.cache
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\obj\Debug\netcoreapp3.1\贪吃蛇.AssemblyInfoInputs.cache
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\obj\Debug\netcoreapp3.1\贪吃蛇.AssemblyInfo.cs
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\obj\Debug\netcoreapp3.1\贪吃蛇.csproj.CoreCompileInputs.cache
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\obj\Debug\netcoreapp3.1\贪吃蛇.dll
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\obj\Debug\netcoreapp3.1\贪吃蛇.pdb
+C:\Users\Erina\source\repos\CSharp-Core\贪吃蛇\obj\Debug\netcoreapp3.1\贪吃蛇.genruntimeconfig.cache

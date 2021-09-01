@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9INq44Rd5P9lg0S/8jryfQKUBBU4RUAgShts6jrQ1skOXa8s/asXeJ7h8S1GlqRDtMs5MCX/8JxJ4wrz0fWNoQ==",
+  "dgSpecHash": "jWUZDt7i/a7pEnTdhU5gENHEroyQtBlE6CmaTNea14LlL7Q3NLZnwPz5S8/0/Y7QzjDGMhb4CdITW/ReTD3lDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RayData\\source\\repos\\CSharp-Core\\Lesson10_封装_运算符重载\\Lesson10_封装_运算符重载.csproj",
+  "projectFilePath": "C:\\Users\\Erina\\source\\repos\\CSharp-Core\\Lesson10_封装_运算符重载\\Lesson10_封装_运算符重载.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

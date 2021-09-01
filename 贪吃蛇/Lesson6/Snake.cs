@@ -14,9 +14,9 @@ namespace 贪吃蛇
     class Snake
     {
         //创建蛇及数组字段
-        SnakePart[] snake;
+        public SnakePart[] snake;
         static int partCapacity = 10;
-        int partLength = 1;
+        public int partLength = 1;
 
         //蛇的运动方向
         E_MoveDirection moveDirection;
@@ -43,7 +43,13 @@ namespace 贪吃蛇
             Vector lastFramePos = snake[partLength - 1].position;
             Console.SetCursorPosition(lastFramePos.posX, lastFramePos.posY);
             Console.Write("  ");
-            
+
+            //蛇身位置移动,蛇身子先变位置，一个一个往前顶，最前面的一个蛇身子应该顶替蛇头改变之前的位置，所以蛇头改变位置的顺序应该在蛇身改变位置后面；
+            for (int i = partLength - 1; i > 0; i--)
+            {
+                snake[i].position = snake[i - 1].position;
+            }
+
             //改变蛇头的位置
             switch (moveDirection)
             {
@@ -62,12 +68,6 @@ namespace 贪吃蛇
                 default:
                     break;
             }
-
-            //设置蛇身位置、蛇头赋值
-            for (int i = partLength - 1; i > 0; i--)
-            {
-                snake[i] = new SnakePart(snake[i - 1].position.posX, snake[i - 1].position.posY, E_PartType.SnakeBody);
-            }      
         }
         public void ChangeDirection(E_MoveDirection newDir)//传入一个新方向，然后判断如何改变原方向
         {
@@ -98,17 +98,20 @@ namespace 贪吃蛇
                     snake1[i] = snake[i];
                 }
                 snake = snake1;
-
             }
+            //添加身体
+            snake[partLength] = new SnakePart(snake[partLength-1].position.posX, snake[partLength - 1].position.posY, E_PartType.SnakeBody);
             //添加长度
             ++partLength;
         }
-        public void CheckEat(Food food)//身体长度+1、重新长出另一个食物
+        public bool CheckEat(Food food)//身体长度+1、重新长出另一个食物
         {
             if (snake[0].position == food.position)
             {
                 AddBodyParts();
+                return true;
             }
+            return false;
         }
         public bool CheckEnd(Map map)
         {
